@@ -1,0 +1,184 @@
+
+:root{
+    ---pr-color : #048853;
+    /* memebuat variabel */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3fff4;
+}
+/* navbar style */
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.accsent-img{
+    z-index: 1;
+}
+.img-hero{
+    z-index:1;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(---pr-color);   /* memanggil variabel */
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;   /* memanggil variabel */
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* hero section */
+#hero{
+    background: linear-gradient(160deg, var(---pr-color), #000);  /* membuat gradasi warna */
+    height: 100vh;         /* agar bg colornya full */
+}
+.img-hero{
+    height: 100%;
+}
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+.hero-tagline p{
+    /* Mengatur paragraf */
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+.button-lg-primary{
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    color: var(---pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* layanan section */
+#layanan{
+    padding: 100px 0;
+
+}
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(---pr-color);
+}
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+/* container */
+
+/* end container*/
+
+
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(---pr-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+.card-layanan h3{
+    color: var(---pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+.card-layanan p{
+    color: #000;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+
+/* layanan section hover */
+.card-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background: linear-gradient(160deg, var(---pr-color), #000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover .circle-icon{
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+
+/* search section */
+#search{
+    background-image: url(Assets/Img-search.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#search h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+#search p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #fff;
+}
